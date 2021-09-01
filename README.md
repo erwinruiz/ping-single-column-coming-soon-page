@@ -26,11 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/desktop-design.png)
+![](./screenshots/desktop-design-active-state.png)
+![](./screenshots/mobile-design.png)
+![](./screenshots/mobile-design-active-state.png)
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
+- Solution URL: [Click here](https://erwinruiz.github.io/ping-single-column-coming-soon-page/)
 
 ## My process
 
