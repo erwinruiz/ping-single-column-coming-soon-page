@@ -107,6 +107,15 @@ footer .copyright {
   color: var(--Gray);
   font-size: 11px;
 }
+.error_border {
+  border: 1px solid var(--LightRed);
+}
+.error {
+  color: var(--LightRed);
+  font-size: 11px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
 .attribution {
   display: none;
 }
@@ -140,5 +149,10 @@ footer .copyright {
   main section .illustration {
     width: 100%;
     margin-bottom: 50px;
+  }
+  .error {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 26px;
   }
 }
