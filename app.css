@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;1,700&display=swap");
 
 :root {
   /* Primary */
@@ -16,7 +16,94 @@
   margin: 0;
 }
 body {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 20px;
-    /* Weights: 300, 600, 700 */
+  font-family: "Libre Franklin", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main section {
+  width: 335px;
+  text-align: center;
+}
+main section .logo {
+  height: 18px;
+  margin-bottom: 30px;
+}
+main section h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+main section h1 span {
+  color: var(--Gray);
+  font-weight: 300;
+}
+main section .text {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+main section input {
+  display: block;
+  font-family: "Libre Franklin", sans-serif;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid var(--PaleBlue);
+  outline: none;
+  height: 40px;
+  width: 74%;
+  padding: 0 7%;
+  margin-bottom: 10px;
+}
+main section input::placeholder {
+  color: hsla(0, 0%, 59%, 0.575);
+}
+main section button {
+  border: none;
+  background-color: var(--Blue);
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  width: 88%;
+  margin-bottom: 70px;
+  box-shadow: 0 5px 5px hsla(223, 87%, 63%, 0.301);
+}
+main section button:hover {
+  filter: brightness(120%);
+  box-shadow: 0 5px 5px hsla(223, 87%, 63%, 0.219);
+}
+main section .illustration {
+  width: 100%;
+  margin-bottom: 120px;
+}
+footer .social_media {
+  padding: 0;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+footer .social_media i {
+  color: var(--Blue);
+  border: 1px solid var(--PaleBlue);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+footer .social_media i:hover {
+  background-color: var(--Blue);
+  color: white;
+}
+footer .copyright {
+  color: var(--Gray);
+  font-size: 11px;
+}
+.attribution {
+  display: none;
 }
