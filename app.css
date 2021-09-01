@@ -44,7 +44,11 @@ main section .text {
   font-size: 13px;
   margin-bottom: 30px;
 }
-main section input {
+main section form {
+  width: 100%;
+  margin-bottom: 70px;
+}
+main section form input {
   display: block;
   font-family: "Libre Franklin", sans-serif;
   margin: 0 auto;
@@ -56,22 +60,21 @@ main section input {
   padding: 0 7%;
   margin-bottom: 10px;
 }
-main section input::placeholder {
+main section form input::placeholder {
   color: hsla(0, 0%, 59%, 0.575);
 }
-main section button {
+main section form button {
   border: none;
   background-color: var(--Blue);
   cursor: pointer;
   color: white;
   border-radius: 20px;
-  height: 40px;
+  height: 42px;
   width: 88%;
-  margin-bottom: 70px;
   box-shadow: 0 5px 5px hsla(223, 87%, 63%, 0.301);
 }
-main section button:hover {
-  filter: brightness(120%);
+main section form button:hover {
+  filter: brightness(130%);
   box-shadow: 0 5px 5px hsla(223, 87%, 63%, 0.219);
 }
 main section .illustration {
@@ -89,8 +92,8 @@ footer .social_media i {
   color: var(--Blue);
   border: 1px solid var(--PaleBlue);
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 28px;
+  width: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,4 +109,36 @@ footer .copyright {
 }
 .attribution {
   display: none;
+}
+
+@media (min-width: 520px) {
+  main section {
+    width: 500px;
+  }
+  main section .logo {
+    height: 21px;
+  }
+  main section h1 {
+    font-size: 36px;
+  }
+  main section .text {
+    font-size: 15px;
+  }
+  main section form {
+    margin-bottom: 60px;
+  }
+  main section form input {
+    display: initial;
+    width: 55%;
+    padding: 0 5%;
+    margin-bottom: 0;
+    margin-right: 8px;
+  }
+  main section form button {
+    width: 32%;
+  }
+  main section .illustration {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
